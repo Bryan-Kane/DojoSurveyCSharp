@@ -1,0 +1,36 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    
+}
+<div class="col-12 text-center mt-3">
+        <form action="result" method="post" class="form-control">
+            <div class="col-12 row">
+                <div class="col-6">Your name:</div>
+                <input class="col-6" type="text" id="name" name="name" placeholder="">
+            </div>
+            <div class="col-12 form-group row mt-3">
+                <label class="col-6" for="loc">Dojo Location:</label>
+                <select class="col-6 form-control" name = "location" placeholder="San Jose">
+                    <option type = 'hidden' value="San Jose">San Jose</option>
+                    <option type = 'hidden' value="Seattle">Seattle</option>
+                    <option type = 'hidden' value="Baltimore">Baltimore</option>
+                </select>
+            </div>
+            <div class="col-12 form-group row mt-3">
+                <label class="col-6" for='language'>Favorite Language</label>
+            <select class="col-6 form-control" name = 'language' id ="drop" placeholder="Python">
+                        <option type="hidden" value="Python">Python</option>
+                        <option type="hidden" value="C#">C#</option>
+                        <option type="hidden" value="iOS">iOS</option>
+                </select>
+            </div>
+        
+            <div class="col-12 text-center row">
+                <p class="col-6 mt-3">Comment (optional)</p>
+                <input class="col-6" type="text" name="comment">
+                <div class="col-12 text-right">
+                    <input type="submit" value="Submit" class="button col-2 mt-3">
+                </div>
+            </div>
+        </form>
+    </div>

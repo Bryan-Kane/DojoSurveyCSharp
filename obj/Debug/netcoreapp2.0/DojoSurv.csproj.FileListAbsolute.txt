@@ -1,0 +1,11 @@
+/Users/bkane/Dojo/C#/8_03/DojoSurv/bin/Debug/netcoreapp2.0/DojoSurv.deps.json
+/Users/bkane/Dojo/C#/8_03/DojoSurv/bin/Debug/netcoreapp2.0/DojoSurv.runtimeconfig.json
+/Users/bkane/Dojo/C#/8_03/DojoSurv/bin/Debug/netcoreapp2.0/DojoSurv.runtimeconfig.dev.json
+/Users/bkane/Dojo/C#/8_03/DojoSurv/bin/Debug/netcoreapp2.0/DojoSurv.dll
+/Users/bkane/Dojo/C#/8_03/DojoSurv/bin/Debug/netcoreapp2.0/DojoSurv.pdb
+/Users/bkane/Dojo/C#/8_03/DojoSurv/obj/Debug/netcoreapp2.0/DojoSurv.csprojResolveAssemblyReference.cache
+/Users/bkane/Dojo/C#/8_03/DojoSurv/obj/Debug/netcoreapp2.0/DojoSurv.csproj.CoreCompileInputs.cache
+/Users/bkane/Dojo/C#/8_03/DojoSurv/obj/Debug/netcoreapp2.0/DojoSurv.AssemblyInfoInputs.cache
+/Users/bkane/Dojo/C#/8_03/DojoSurv/obj/Debug/netcoreapp2.0/DojoSurv.AssemblyInfo.cs
+/Users/bkane/Dojo/C#/8_03/DojoSurv/obj/Debug/netcoreapp2.0/DojoSurv.dll
+/Users/bkane/Dojo/C#/8_03/DojoSurv/obj/Debug/netcoreapp2.0/DojoSurv.pdb
