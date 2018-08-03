@@ -10,16 +10,16 @@ namespace DojoSurv.Controllers
 {
     public class HomeController : Controller
     {
+        [HttpGet]
+        [Route("")]
         public IActionResult Index()
         {
             return View();
         }
-
-        public IActionResult About()
+        [HttpPost("result")]
+        public IActionResult Process(Survey surv)
         {
-            ViewData["Message"] = "Your application description page.";
-
-            return View();
+            return View("Survey", surv);
         }
 
         public IActionResult Contact()

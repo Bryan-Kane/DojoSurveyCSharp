@@ -1,0 +1,36 @@
+@model DojoSurv.Models.Survey
+
+<div class="col-lg-12 text-center mt-3">
+        <div class="col-lg-8 text-center">
+            <h3>Submitted Information</h3>
+        </div>
+        <div class="col-lg-12 row">
+            <div class="col-lg-6">
+                Name:
+            </div>
+            <div class="col-lg-6">
+                @Model.name
+            </div>
+            <div class="col-lg-6">
+                Dojo Location:
+            </div>
+            <div class="col-lg-6">
+                @Model.location
+            </div>
+            <div class="col-lg-6">
+                Favorite Language:
+            </div>
+            <div class="col-lg-6">
+                @Model.language
+            </div>
+            <div class="col-lg-6">
+                Comment:
+            </div>
+            <div class="col-lg-6">
+                @Model.comment
+            </div>
+        </div>
+        <div class="col-lg-12 text-right">
+            <a href='/'><input type="submit" value="Return" class="button col-lg-2 mt-3"></a>
+        </div>
+    </div>
